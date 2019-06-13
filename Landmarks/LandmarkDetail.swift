@@ -34,16 +34,16 @@ struct LandmarkDetail : View {
                     Text(landmark.name)
                         .font(.title)
                     
-                    Spacer()
-                    
                     Button(action: {
                         self.userData.landmarks[self.landmarkIndex].isFavorite.toggle()
                     }) {
                         if self.userData.landmarks[self.landmarkIndex].isFavorite {
                             Image(systemName: "star.fill")
+                                .font(.title)
                                 .foregroundColor(Color.yellow)
                         } else {
                             Image(systemName: "star")
+                                .font(.title)
                                 .foregroundColor(Color.gray)
                         }
                     }

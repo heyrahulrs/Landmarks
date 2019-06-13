@@ -20,8 +20,9 @@ struct LandmarkRow : View {
             
             if landmark.isFavorite {
                 Image(systemName: "star.fill")
-                    .imageScale(.medium)
+                    .font(.title)
                     .foregroundColor(.yellow)
+                    .padding(.trailing, 18)
             }
         }
     }
