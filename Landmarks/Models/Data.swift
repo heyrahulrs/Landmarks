@@ -1,15 +1,16 @@
 /*
-See LICENSE folder for this sample’s licensing information.
+ See LICENSE folder for this sample’s licensing information.
+ 
+ Abstract:
+ Helpers for loading images and data.
+ */
 
-Abstract:
-Helpers for loading images and data.
-*/
-
-import UIKit
+import Foundation
 import SwiftUI
 import CoreLocation
 
 let landmarkData: [Landmark] = load("landmarkData.json")
+let hikeData: [Hike] = load("hikeData.json")
 
 func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {
     let data: Data
