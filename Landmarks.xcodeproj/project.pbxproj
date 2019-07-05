@@ -44,6 +44,7 @@
 		20B26D7B22B201B000A5899C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20B26D7922B201B000A5899C /* LaunchScreen.storyboard */; };
 		20B26D8322B202EA00A5899C /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B26D8222B202EA00A5899C /* CircleImage.swift */; };
 		20B26D8522B2037300A5899C /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B26D8422B2037300A5899C /* MapView.swift */; };
+		20D4D0EA22B7716D00C62476 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D4D0E922B7716D00C62476 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		20B26D7C22B201B000A5899C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B26D8222B202EA00A5899C /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		20B26D8422B2037300A5899C /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		20D4D0E922B7716D00C62476 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				20981BDF22B20D6D001E964C /* LandmarkList.swift */,
 				20B26D7222B201AE00A5899C /* LandmarkDetail.swift */,
 				201E4C8622B3ABE200303906 /* HikeDetail.swift */,
+				20D4D0E922B7716D00C62476 /* CategoryHome.swift */,
 				201E4C8422B3ABD100303906 /* HikeView.swift */,
 				202C58CF22B223AE006B5270 /* Badge.swift */,
 				202C58D122B22665006B5270 /* BadgeBackground.swift */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20981BDA22B20BDC001E964C /* Landmark.swift in Sources */,
+				20D4D0EA22B7716D00C62476 /* CategoryHome.swift in Sources */,
 				201E4C8322B3ABB700303906 /* HikeGraph.swift in Sources */,
 				202C58D022B223AE006B5270 /* Badge.swift in Sources */,
 				20B26D6F22B201AE00A5899C /* AppDelegate.swift in Sources */,
