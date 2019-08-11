@@ -32,7 +32,7 @@ struct LandmarkList : View {
                     }
                 }
             }
-            .listStyle(.grouped)
+            .listStyle(GroupedListStyle())
             .navigationBarTitle(Text("Landmarks"))
         }
     }
